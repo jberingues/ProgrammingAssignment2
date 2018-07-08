@@ -5,7 +5,7 @@
 
 ### Example of use
 
-<!-- -->
+```
 
 > m = makeCacheMatrix()
 > m$set(matrix(c(2,3,4,4,3,2,0,1,0), nrow=3, ncol = 3))
@@ -25,3 +25,6 @@
 [2,]  0.3333333    0 -0.1666667
 [3,] -0.5000000    1 -0.5000000
 > 
+```
+Second call to cacheSolve shows it does not recalculate because it was previosuly inverted 
+
